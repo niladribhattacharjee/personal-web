@@ -1,0 +1,444 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* //////////////////////////NAV/////////////////////////////  */
+#Home {
+  background-color: #434343;
+  text-align: center;
+  position: relative;
+
+}
+
+
+.navbar-brand {
+  font-family: 'Roboto', sans-serif;
+  height: 60px;
+}
+
+.BoxOne {
+  padding: 2% 12% 12%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.list-items {
+  padding: 0% 10%;
+}
+
+.class-link {
+  padding: 0% 6%;
+  font-size: 1.0rem;
+}
+
+/*/////////// HOME///////// */
+.heading {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-align: left;
+  font-size: 3.0rem;
+  padding-top: 100px;
+}
+
+.head-sub {
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  text-align: left;
+  font-size: 2.2rem;
+  z-index: -1;
+}
+
+ .background {
+  width: 50%;
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+  margin: 0;
+}
+
+
+
+.download-button {
+  margin-right: 575px;
+  margin-top: 20px;
+}
+
+/* ///////////////////////////////////ABOUT////////////////////// */
+#About {
+  text-align: center;
+  position: relative;
+}
+
+.heading-one {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 100px;
+  color: #434343;
+}
+
+.sub-heading-one {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+}
+
+.sub-interest {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 50px;
+  color: #434343;
+}
+
+.personal-image {
+  height: 180px;
+  padding-top: 20px;
+}
+
+.cup {
+  height: 70%;
+  position: absolute;
+  bottom: 10%;
+  right: 48%;
+  z-index: -999;
+  opacity: 20%;
+}
+
+.icon-box {
+  padding: 2% 25%;
+  margin: 0;
+}
+
+.icon {
+  color: #2f4550;
+  padding-top: 20%
+}
+
+.icon:hover {
+  color: #586f7c;
+}
+
+hr {
+  border: dotted #c5d5e4 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 50px auto;
+}
+
+/* //////////////////////////SKILLS///////////////////////// */
+#Skills::after {
+  content: "";
+clear: both;
+display: table;
+text-align: center;
+}
+
+
+.heading-two {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: #434343;
+}
+
+.Skill-bar {
+  font-family: 'Ubuntu', sans-serif;
+  list-style: none;
+  width: 50%;
+  float: left;
+  padding: 0 10%;
+}
+
+.Skill-bar-2 {
+  font-family: 'Ubuntu', sans-serif;
+  list-style: none;
+  width: 50%;
+  float: right;
+  padding: 0 10%;
+}
+.skill-main-div{
+  margin: auto 250px;
+}
+
+.Skill-bar li {
+  margin: 40px auto;
+}
+
+.Skill-bar-2 li {
+  margin: 40px auto;
+}
+
+.bar {
+  background: #e1e5ee;
+  display: block;
+  height: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #c7ccdb;
+}
+
+.bar span {
+  height: 3px;
+  float: left;
+  background: #2a324b;
+}
+
+.bar-2 {
+  background: #e1e5ee;
+  display: block;
+  height: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #c7ccdb;
+}
+
+.bar-2 span {
+  height: 3px;
+  float: left;
+  background: #2a324b;
+}
+
+.Photoshop {
+  width: 90%;
+  animation: Photoshop 4s;
+}
+
+.Illustrator {
+  width: 89%;
+  animation: Illustrator 4s;
+}
+
+.Premier-Pro {
+  width: 75%;
+  animation: Premier-Pro 4s;
+}
+
+.After-Effects {
+  width: 45%;
+  animation: After-Effects 4s;
+}
+
+@keyframes Photoshop {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes Illustrator {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 89%;
+  }
+}
+
+@keyframes Premier-Pro {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 75%;
+  }
+}
+
+@keyframes After-Effects {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 45%;
+  }
+}
+
+.Maya {
+  width: 90%;
+  animation: Maya 4s;
+}
+
+@keyframes Maya {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 90%;
+  }
+}
+
+.Adobe-Indesign {
+  width: 60%;
+  animation: Adobe-Indesign 4s;
+}
+
+@keyframes Adobe-Indesign {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 60%;
+  }
+}
+
+.html-css {
+  width: 65%;
+  animation: html-css 4s;
+}
+
+@keyframes html-css {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 65%;
+  }
+}
+
+.adobe-xd {
+  width: 50%;
+  animation: adobe-xd 4s;
+}
+
+@keyframes adobe-xd {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 50%;
+  }
+}
+
+.bg-skill-image {
+  position: relative;
+}
+
+.skill-image {
+  height: 400px;
+  position: absolute;
+  right: 200px;
+  z-index: -999;
+  opacity: 10%;
+}
+
+/* ///////////////////////////////////////////////CONTACT////////////////////////////////// */
+#Contact {
+  text-align: center;
+}
+
+.contact-heading {
+  font-family: 'Roboto', sans-serif;
+  color: #434343;
+  padding-bottom: 20px
+}
+
+.last-container{
+  background-color: #434343;
+  margin: 0;
+  height: 65px;
+  padding-top: 20px;
+  opacity: 80%;
+}
+
+.copyright{
+  color: white;
+  padding-top: 5px;
+}
+.contact-sub{
+  padding-bottom: 20px;
+}
+
+.glow {
+  position: relative;
+  display: inline-block;
+  padding: 10px 25px;
+  color: #41bbd9;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 20px;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.glow:hover {
+  color: #255784;
+  background: #41bbd9;
+  box-shadow: 0 0 10px #41bbd9, 0 0 40px #41bbd9, 0 0 80px #41bbd9;
+  transition-delay: 1s;
+}
+
+.glow span {
+  position: absolute;
+  display: block;
+}
+
+.glow span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #41bbd9);
+}
+
+.glow:hover span:nth-child(1) {
+  left: 100%;
+  transition: 1s;
+}
+
+.glow span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #41bbd9);
+}
+
+.glow:hover span:nth-child(3) {
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+
+.glow span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #41bbd9);
+}
+
+.glow:hover span:nth-child(2) {
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+
+.glow span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #41bbd9);
+}
+
+.glow:hover span:nth-child(4) {
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
