@@ -96,7 +96,7 @@ body {
 }
 
 .personal-image {
-  height: 180px;
+  width: 10%;
   padding-top: 20px;
 }
 
@@ -329,9 +329,9 @@ text-align: center;
 }
 
 .skill-image {
-  height: 400px;
+  width: 25%;
   position: absolute;
-  right: 200px;
+  right: 10%;
   z-index: -999;
   opacity: 10%;
 }
